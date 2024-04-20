@@ -12,5 +12,5 @@ export default defineConfig({
       assets: '/src/assets',
     },
   },
-  base: '/react-project_learn-lingo/',
+  base: '/slay/',
 });
