@@ -14,13 +14,13 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <Provider store={store}>
     <PersistGate loading={null} persistor={persistor}>
       <ThemeProvider theme={theme}>
-        <BrowserRouter basename="/slay">
+        <BrowserRouter basename="/react-project_learn-lingo">
           <App />
           <Toaster
             toastOptions={{
               success: {
                 iconTheme: { primary: 'green', secondary: 'white' },
-                style: { color: 'white', background: 'green' },
+                style: { color: 'white', background: '#38CD3E' },
               },
               error: {
                 iconTheme: { primary: 'red', secondary: 'white' },
