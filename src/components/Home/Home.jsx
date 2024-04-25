@@ -1,9 +1,7 @@
 import SpriteIcon from '../../images/sprite.svg';
-import HeroImg from '../../images/child.png';
 import {
   BtnStart,
   BoxCheck,
-  HomeImg,
   HomeInfo,
   Section,
   InfoHomeBox,
@@ -44,7 +42,6 @@ export const Home = () => {
           </svg>
         </BtnStart>
       </HomeInfo>
-      <HomeImg src={HeroImg} alt="home" />
       <InfoHomeBox>
         <BoxCheck>
           <svg width="20" height="15">
