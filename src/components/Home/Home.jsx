@@ -1,5 +1,5 @@
 import SpriteIcon from '../../images/sprite.svg';
-import HeroImg from '../../images/Rectangle 1.png';
+import HeroImg from '../../images/child.png';
 import {
   BtnStart,
   BoxCheck,
