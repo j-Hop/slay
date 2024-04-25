@@ -1,13 +1,12 @@
 import SpriteIcon from '../../../images/sprite.svg';
-import {RevAvatar, RevComment, RevContainer, RevWrapper} from './NanniesCard.styled'
+import { RevComment, RevContainer, RevWrapper} from './NanniesCard.styled'
 
 export const NanniesReviewer = ({item}) => {
-const {reviewer_avatar, rating, reviewer, comment} = item;
+const { rating, reviewer, comment} = item;
 
 return(
 <>
 <RevContainer>
-    <RevAvatar src={reviewer_avatar} width='44' height='44' alt='avatar'/>
     <RevWrapper>
 <h3>{reviewer}</h3>
 <p>

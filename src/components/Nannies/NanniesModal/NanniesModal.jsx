@@ -2,7 +2,6 @@ import * as Yup from 'yup';
 import toast from 'react-hot-toast';
 import { Formik } from 'formik';
 import {
-  ModalAvatar,
   ModalContainer,
   CardGroup,
   CardStyleComment,
@@ -93,12 +92,6 @@ export const NanniesModal = ({ card, onRequestClose }) => {
         </ModalContainer>
 
         <WrapperModal>
-          <ModalAvatar
-            src={card.avatar_url}
-            alt="avatar"
-            width="44"
-            height="44"
-          />
           <p>Your nanny</p>
           <h3>{card.name}</h3>
         </WrapperModal>

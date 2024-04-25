@@ -5,7 +5,6 @@ import {
   MainCardContainer,
   GreenDot,
   ContAvatar,
-  NannyAvatar,
   CardBody,
   IconMap,
   IconStar,
@@ -73,7 +72,6 @@ export const NanniesCard = ({ card }) => {
   };
 
   const {
-    avatar_url,
     location,
     name,
     rating,
@@ -102,7 +100,6 @@ export const NanniesCard = ({ card }) => {
             <use xlinkHref={`${SpriteIcon}#icon-online`} />
           </svg>
         </GreenDot>
-        <NannyAvatar src={avatar_url} alt="avatar" />
       </ContAvatar>
 
       <CardBody>
