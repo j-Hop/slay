@@ -1,1 +1,0 @@
-import{d as s,j as t}from"./index-776f4f13.js";import{b as a,N as o,c as n}from"./NanniesCard-bc0382c1.js";const i=()=>{const e=s(a);return t.jsx(t.Fragment,{children:e.map(r=>t.jsx(o,{card:r},r.id))})};function m(){const e=s(n);return t.jsx(t.Fragment,{children:e.length>0?t.jsx(i,{}):t.jsx("img",{src:NotFavorite,alt:"notFavorite"})})}export{m as default};

@@ -1,10 +1,10 @@
-import{s as n,t as e,N as a,r as l,j as i}from"./index-776f4f13.js";const c=n.div`
+import{s as n,t as e,N as l,r as c,j as i,S as o}from"./index-18477571.js";const d="/slay/assets/child-2557fb2d.png",p=n.div`
   padding: ${e.spacing(32)} ${e.spacing(48)};
   inline-size: 1380px;
   background-color: ${e.colors.green};
   block-size: 736px;
   border-radius: ${e.radius.xl};
-`,d=n.div`
+`,h=n.div`
   position: absolute;
   max-inline-size: 530px;
   top: 251px;
@@ -24,11 +24,11 @@ import{s as n,t as e,N as a,r as l,j as i}from"./index-776f4f13.js";const c=n.di
     color: ${e.colors.light};
     margin-block-end: ${e.spacing(32)};
   }
-`,p=n.img`
+`,x=n.img`
   height: 736px;
   max-width: 699px;
   transform: translate(585px, -64px);
-`,x=n(a)`
+`,g=n(l)`
   border: 1px solid rgba(251, 251, 251, 0.4);
   border-radius: ${e.radius.xl};
   background-color: transparent;
@@ -50,7 +50,7 @@ import{s as n,t as e,N as a,r as l,j as i}from"./index-776f4f13.js";const c=n.di
     color: ${e.colors.light};
     margin-inline-end: ${e.spacing(9)};
   }
-`,h=n.div`
+`,f=n.div`
   padding: ${e.spacing(16)};
   border: none;
   border-radius: 20px;
@@ -75,7 +75,7 @@ import{s as n,t as e,N as a,r as l,j as i}from"./index-776f4f13.js";const c=n.di
     line-height: 1.2;
     margin: 0;
   }
-`,g=n.div`
+`,m=n.div`
   border: none;
   background-color: ${e.colors.green};
   border-radius: 13px;
@@ -83,9 +83,9 @@ import{s as n,t as e,N as a,r as l,j as i}from"./index-776f4f13.js";const c=n.di
   width: 54px;
   height: 54px;
   padding: ${e.spacing(9.75)} ${e.spacing(8.5)};
-`,f=n.div`
+`,u=n.div`
 display: flex;
 flex-direction: column;
 gap: ${e.spacing(3)};
 }
-`,m=()=>{const[s,o]=l.useState(!1),r=()=>{o(!0)},t=()=>{o(!1)};return i.jsxs(c,{children:[i.jsxs(d,{children:[i.jsx("h2",{children:"Make Life Easier for the Family:"}),i.jsx("p",{children:"Find Babysitters Online for All Occasions"}),i.jsxs(x,{to:"/nannies",onMouseEnter:r,onMouseLeave:t,children:[i.jsx("span",{children:"Get started"}),i.jsx("svg",{width:"15",height:"15",children:i.jsx("use",{xlinkHref:s?`${SpriteIcon}#icon-Arrow-inline`:`${SpriteIcon}#icon-Arrow-up`})})]})]}),i.jsx(p,{src:HeroImg,alt:"home"}),i.jsxs(h,{children:[i.jsx(g,{children:i.jsx("svg",{width:"20",height:"15",children:i.jsx("use",{xlinkHref:`${SpriteIcon}#icon-check`})})}),i.jsxs(f,{children:[i.jsx("p",{children:"Experienced nannies"}),i.jsx("h2",{children:"15,000"})]})]})]})};function $(){return i.jsx(m,{})}export{$ as default};
+`,$=()=>{const[r,s]=c.useState(!1),t=()=>{s(!0)},a=()=>{s(!1)};return i.jsxs(p,{children:[i.jsxs(h,{children:[i.jsx("h2",{children:"Make Life Easier for the Family:"}),i.jsx("p",{children:"Find Babysitters Online for All Occasions"}),i.jsxs(g,{to:"/nannies",onMouseEnter:t,onMouseLeave:a,children:[i.jsx("span",{children:"Get started"}),i.jsx("svg",{width:"15",height:"15",children:i.jsx("use",{xlinkHref:r?`${o}#icon-arrow-inline`:`${o}#icon-arrow-up`})})]})]}),i.jsx(x,{src:d,alt:"home"}),i.jsxs(f,{children:[i.jsx(m,{children:i.jsx("svg",{width:"20",height:"15",children:i.jsx("use",{xlinkHref:`${o}#icon-check`})})}),i.jsxs(u,{children:[i.jsx("p",{children:"Experienced nannies"}),i.jsx("h2",{children:"15,000"})]})]})]})};function j(){return i.jsx($,{})}export{j as default};
