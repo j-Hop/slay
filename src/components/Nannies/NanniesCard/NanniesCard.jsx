@@ -1,5 +1,5 @@
 import toast from 'react-hot-toast';
-// import SpriteIcon from '../../../images/sprite.svg';
+import SpriteIcons from '../../../images/sprite.svg';
 import { NanniesModal } from '../NanniesModal/NanniesModal';
 import {
   MainCardContainer,
@@ -99,7 +99,7 @@ export const NanniesCard = ({ card }) => {
       <ContAvatar>
         <GreenDot>
           <svg width="14" height="14">
-            <use xlinkHref={`${SpriteIcon}#icon-online`} />
+            <use xlinkHref={`${SpriteIcons}#icon-online`} />
           </svg>
         </GreenDot>
         <NannyAvatar src={avatar_url} alt="avatar" />
@@ -110,7 +110,7 @@ export const NanniesCard = ({ card }) => {
           <SubParagraph>Nanny</SubParagraph>
           <CardWrapper>
             <IconMap width="16" height="16">
-              <use xlinkHref={`${SpriteIcon}#icon-map-pin`} />
+              <use xlinkHref={`${SpriteIcons}#icon-map-pin`} />
             </IconMap>
             <p>{location}</p>
             <VerticalLine>|</VerticalLine>
@@ -124,11 +124,11 @@ export const NanniesCard = ({ card }) => {
             <HeartBtn onClick={toggleFavorite}>
               {isFavorites && authUser ? (
                 <svg width="26" height="26" stroke="##103931" fill="#103931">
-                  <use xlinkHref={`${SpriteIcon}#icon-heart`} />
+                  <use xlinkHref={`${SpriteIcons}#icon-heart`} />
                 </svg>
               ) : (
                 <svg width="26" height="26" stroke="#121417" fill="transparent">
-                  <use xlinkHref={`${SpriteIcon}#icon-heart`} />
+                  <use xlinkHref={`${SpriteIcons}#icon-heart`} />
                 </svg>
               )}
             </HeartBtn>

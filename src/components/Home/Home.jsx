@@ -1,5 +1,5 @@
-// import SpriteIcon from '../../images/sprite.svg';
-// import HeroImg from '../../images/child.png';
+import SpriteIcons from '../../images/sprite.svg';
+import HeroImg from '../../images/child.png';
 import {
   BtnStart,
   BoxCheck,
@@ -37,8 +37,8 @@ export const Home = () => {
             <use
               xlinkHref={
                 isHovered
-                  ? `${SpriteIcon}#icon-Arrow-inline`
-                  : `${SpriteIcon}#icon-Arrow-up`
+                  ? `${SpriteIcons}#icon-arrow-inline`
+                  : `${SpriteIcons}#icon-arrow-up`
               }
             />
           </svg>
@@ -48,7 +48,7 @@ export const Home = () => {
       <InfoHomeBox>
         <BoxCheck>
           <svg width="20" height="15">
-            <use xlinkHref={`${SpriteIcon}#icon-check`} />
+            <use xlinkHref={`${SpriteIcons}#icon-check`} />
           </svg>
         </BoxCheck>
         <BoxWrap>

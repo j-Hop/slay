@@ -4,7 +4,7 @@ import { useState } from 'react';
 import toast from 'react-hot-toast';
 import { auth } from '../../firebase';
 import { signInWithEmailAndPassword } from 'firebase/auth';
-// import SpriteIcon from '../../images/sprite.svg';
+import SpriteIcons from '../../images/sprite.svg';
 import {
   EyeBtn,
   Title,
@@ -83,8 +83,8 @@ export const Login = ({ onRequestClose }) => {
               <use
                 xlinkHref={
                   showPassword
-                    ? `${SpriteIcon}#icon-eye`
-                    : `${SpriteIcon}#icon-eye-off`
+                    ? `${SpriteIcons}#icon-eye`
+                    : `${SpriteIcons}#icon-eye-off`
                 }
               />
             </svg>

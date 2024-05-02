@@ -2,7 +2,7 @@ import toast from 'react-hot-toast';
 import { useState } from 'react';
 import { Formik } from 'formik';
 import * as Yup from 'yup';
-// import SpriteIcon from '../../images/sprite.svg';
+import SpriteIcons from '../../images/sprite.svg';
 import { auth } from '../../firebase';
 import { AuthProvider } from './AuthProvider';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
@@ -94,8 +94,8 @@ export const SignUp = ({ onRequestClose }) => {
                 <use
                   xlinkHref={
                     showPassword
-                      ? `${SpriteIcon}#icon-eye`
-                      : `${SpriteIcon}#icon-eye-off`
+                      ? `${SpriteIcons}#icon-eye`
+                      : `${SpriteIcons}#icon-eye-off`
                   }
                 />
               </svg>

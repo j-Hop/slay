@@ -14,7 +14,7 @@ import {
   ModalTime,
 } from './NanniesModal.styled';
 import { BtnSubmit, ErrMsg } from '../../Auth/Auth.styled';
-// import SpriteIcon from '../../../images/sprite.svg';
+import SpriteIcons from '../../../images/sprite.svg';
 import { useState } from 'react';
 import { Time } from './NanniesMiniModal';
 
@@ -124,7 +124,7 @@ export const NanniesModal = ({ card, onRequestClose }) => {
             <ErrMsg name="time" component="div" />
             <TimeBtn onClick={handleToggleTime} type="text">
               <svg width="20" height="20">
-                <use xlinkHref={`${SpriteIcon}#icon-clock}`} />
+                <use xlinkHref={`${SpriteIcons}#icon-clock`} />
               </svg>
             </TimeBtn>
           </label>

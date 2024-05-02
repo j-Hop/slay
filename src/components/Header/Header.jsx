@@ -89,7 +89,7 @@ export const Header = () => {
             <>
               <IconUser>
                 <svg width="16" height="16">
-                  <use xlinkHref={`${SpriteIcons}#icon-mdi_user`} />
+                  <use xlinkHref={`${SpriteIcons}#icon-mdi-user`} />
                 </svg>
               </IconUser>
               <SpanName>{authUser.name}</SpanName>

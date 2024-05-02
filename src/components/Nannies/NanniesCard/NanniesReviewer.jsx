@@ -1,4 +1,4 @@
-// import SpriteIcon from '../../../images/sprite.svg';
+import SpriteIcons from '../../../images/sprite.svg';
 import {RevAvatar, RevComment, RevContainer, RevWrapper} from './NanniesCard.styled'
 
 export const NanniesReviewer = ({item}) => {
@@ -12,7 +12,7 @@ return(
 <h3>{reviewer}</h3>
 <p>
 <svg width='16' height='16'>
-    <use xlinkHref={`${SpriteIcon}#icon-star`}/>
+    <use xlinkHref={`${SpriteIcons}#icon-star`}/>
 </svg>
 {rating}.0
 </p>

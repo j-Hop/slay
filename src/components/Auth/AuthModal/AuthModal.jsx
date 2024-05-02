@@ -1,7 +1,7 @@
 import Modal from 'react-modal';
 import { createPortal } from 'react-dom';
 import { ModalHeader, CloseBtn } from './AuthModal.styled';
-// import SpriteIcon from '../../../images/sprite.svg';
+import SpriteIcons from '../../../images/sprite.svg';
 
 const Custom = {
   content: {
@@ -36,7 +36,7 @@ export const AuthModal = ({ isOpen, onRequestClose, children }) => {
       <ModalHeader>
         <CloseBtn onClick={onRequestClose}>
           <svg width="32" height="32">
-            <use xlinkHref={`${SpriteIcon}#icon-x`} />
+            <use xlinkHref={`${SpriteIcons}#icon-x`} />
           </svg>
         </CloseBtn>
       </ModalHeader>
