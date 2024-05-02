@@ -1,15 +1,15 @@
-import{j as t,s as r,t as o,N as s}from"./index-6b0fbd40.js";const n="/slay/assets/notFound-525bfa43.jpg",e=r.div`
+import{j as t,s as r,t as o,N as n}from"./index-776f4f13.js";const s=r.div`
 display:flex;
 justify-content:center;
 transform-style: preserve-3d;
 perspective: 400px;
-`,a=r.h1`
+`,e=r.h1`
 font-size:75px;
 position:absolute;
 top:60%;
 right:30%;
 transform:rotateY(30deg);
-`,i=r(s)`
+`,a=r(n)`
 background-color:${o.colors.red};
 color:${o.colors.light};
 font-size:70px;
@@ -23,4 +23,4 @@ transform: rotateY(-90deg);
     background-color:transparent;
     color:${o.colors.green};
 }
-`;function l(){return t.jsxs(e,{children:[t.jsx("img",{src:n,alt:"notFound"}),t.jsx(a,{children:"Not Found Page"}),t.jsx(i,{to:"/nannies",children:"Go Back"})]})}export{l as default};
+`;function c(){return t.jsxs(s,{children:[t.jsx("img",{src:NotFound,alt:"notFound"}),t.jsx(e,{children:"Not Found Page"}),t.jsx(a,{to:"/nannies",children:"Go Back"})]})}export{c as default};
