@@ -1,4 +1,4 @@
-import{j as t,s as r,t as o,N as s}from"./index-4833a8ee.js";const n="/slay/assets/Not-Found-525bfa43.jpg",e=r.div`
+import{j as t,s as r,t as o,N as s}from"./index-6b0fbd40.js";const n="/slay/assets/notFound-525bfa43.jpg",e=r.div`
 display:flex;
 justify-content:center;
 transform-style: preserve-3d;
@@ -23,4 +23,4 @@ transform: rotateY(-90deg);
     background-color:transparent;
     color:${o.colors.green};
 }
-`;function l(){return t.jsxs(e,{children:[t.jsx("img",{src:n,alt:"error"}),t.jsx(a,{children:"Not Found Page"}),t.jsx(i,{to:"/nannies",children:"Go Back"})]})}export{l as default};
+`;function l(){return t.jsxs(e,{children:[t.jsx("img",{src:n,alt:"notFound"}),t.jsx(a,{children:"Not Found Page"}),t.jsx(i,{to:"/nannies",children:"Go Back"})]})}export{l as default};
