@@ -1,4 +1,4 @@
-// import NotFavorite from '../images/notFavorite.jpg';
+import NotFavorite from '../images/notFavorite.jpg';
 import { selectFavorites } from '../redux/selectors';
 import { Favorite } from '../components/Favorite';
 import { useSelector } from 'react-redux';
