@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import NotFound from '../images/notFound.jpg'
+// import NotFound from '../images/notFound.jpg';
 import { NavLink } from "react-router-dom";
 import { theme } from "../components/theme";
 

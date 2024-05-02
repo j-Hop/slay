@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { AuthModal } from '../Auth/AuthModal/AuthModal';
 import { Login } from '../Auth/LogIn';
 import { SignUp } from '../Auth/SignUp';
-import SpriteIcons from '../../images/sprite.svg';
+// import SpriteIcons from '../../images/sprite.svg';
 import { onAuthStateChanged, signOut } from 'firebase/auth';
 import { auth } from '../../firebase';
 import toast from 'react-hot-toast';

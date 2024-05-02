@@ -1,4 +1,4 @@
-import google from '../../images/google.svg';
+// import google from '../../images/google.svg';
 import { signInWithPopup } from 'firebase/auth';
 import { auth, googleAuthProvider } from '../../firebase';
 import toast from 'react-hot-toast';

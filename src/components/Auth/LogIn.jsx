@@ -4,7 +4,7 @@ import { useState } from 'react';
 import toast from 'react-hot-toast';
 import { auth } from '../../firebase';
 import { signInWithEmailAndPassword } from 'firebase/auth';
-import SpriteIcon from '../../images/sprite.svg';
+// import SpriteIcon from '../../images/sprite.svg';
 import {
   EyeBtn,
   Title,

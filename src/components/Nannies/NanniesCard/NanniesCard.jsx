@@ -1,5 +1,5 @@
 import toast from 'react-hot-toast';
-import SpriteIcon from '../../../images/sprite.svg';
+// import SpriteIcon from '../../../images/sprite.svg';
 import { NanniesModal } from '../NanniesModal/NanniesModal';
 import {
   MainCardContainer,

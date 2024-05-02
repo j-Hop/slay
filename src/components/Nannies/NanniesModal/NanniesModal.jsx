@@ -14,7 +14,7 @@ import {
   ModalTime,
 } from './NanniesModal.styled';
 import { BtnSubmit, ErrMsg } from '../../Auth/Auth.styled';
-import SpriteIcon from '../../../images/sprite.svg';
+// import SpriteIcon from '../../../images/sprite.svg';
 import { useState } from 'react';
 import { Time } from './NanniesMiniModal';
 

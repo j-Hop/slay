@@ -1,7 +1,7 @@
 import Modal from 'react-modal';
 import { createPortal } from 'react-dom';
 import { ModalHeader, CloseBtn } from './AuthModal.styled';
-import SpriteIcon from '../../../images/sprite.svg';
+// import SpriteIcon from '../../../images/sprite.svg';
 
 const Custom = {
   content: {

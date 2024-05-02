@@ -1,4 +1,4 @@
-import SpriteIcon from '../../../images/sprite.svg';
+// import SpriteIcon from '../../../images/sprite.svg';
 import {RevAvatar, RevComment, RevContainer, RevWrapper} from './NanniesCard.styled'
 
 export const NanniesReviewer = ({item}) => {
