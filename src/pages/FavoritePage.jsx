@@ -1,4 +1,4 @@
-import NotFavorite from '../images/Not-favorite.png';
+import NotFavorite from '../images/notFavorite.jpg';
 import { selectFavorites } from '../redux/selectors';
 import { Favorite } from '../components/Favorite';
 import { useSelector } from 'react-redux';
@@ -8,7 +8,7 @@ export default function FavoritePage(){
     return(
 <>
 {favorites.length > 0?
-(<Favorite/> ):( <img src={NotFavorite} alt='no favorites'/>)}
+(<Favorite/> ):( <img src={NotFavorite} alt='notFavorite'/>)}
 </>
     );
 }

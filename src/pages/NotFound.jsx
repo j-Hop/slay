@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import NotFound from '../images/Not-Found.jpg'
+import NotFound from '../images/notFound.jpg'
 import { NavLink } from "react-router-dom";
 import { theme } from "../components/theme";
 
@@ -37,7 +37,7 @@ transform: rotateY(-90deg);
 export default function NotFoundPage() {
 return(
     <Error>
-        <img src={NotFound} alt="error"/>
+        <img src={NotFound} alt="notFound" />
         <Msg>Not Found Page</Msg>
         <BtnBack to='/nannies'>Go Back</BtnBack>
     </Error>
